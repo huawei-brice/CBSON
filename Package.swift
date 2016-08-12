@@ -1,5 +1,6 @@
 import PackageDescription
 
 let package = Package(
-    name: "CBSON"
+    name: "CBSON",
+    pkgConfig: "libbson-1.0"
 )
